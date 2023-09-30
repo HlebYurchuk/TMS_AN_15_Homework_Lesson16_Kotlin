@@ -16,6 +16,5 @@ class LoginActivity : AppCompatActivity() {
         goToRegistrationActivity.setOnClickListener {
             startActivity(Intent(this,RegistrationActivity::class.java))
         }
-
     }
 }
