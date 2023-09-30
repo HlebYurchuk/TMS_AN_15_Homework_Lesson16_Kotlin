@@ -12,8 +12,7 @@ class Onboarding2Activity : AppCompatActivity() {
         setContentView(R.layout.activity_onboarding2)
 
         val btnGoToActivity3 = findViewById<Button>(R.id.btnOnboarding2Activity)
-        btnGoToActivity3.setOnClickListener {
-            startActivity(Intent(this,Onboarding3Activity::class.java))
+        btnGoToActivity3.setOnClickListener { startActivity(Intent(this,Onboarding3Activity::class.java))
         }
     }
 }
