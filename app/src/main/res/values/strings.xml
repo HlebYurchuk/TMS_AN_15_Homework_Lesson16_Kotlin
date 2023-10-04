@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Homework1</string>
+    <string name="login">LoginActivity</string>
+    <string name="onboarding1">Onboarding1Activity</string>
+    <string name="onboarding2">Onboarding2Activity</string>
+    <string name="onboarding3">Onboarding3Activity</string>
+    <string name="registration">RegistrationActivity</string>
+    <string name="splash">SplashActivity</string>
 </resources>

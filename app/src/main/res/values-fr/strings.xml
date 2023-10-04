@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">La Homework1</string>
+    <string name="login">La LoginActivity</string>
+    <string name="onboarding1">La Onboarding1Activity</string>
+    <string name="onboarding2">La Onboarding2Activity</string>
+    <string name="onboarding3">La Onboarding3Activity</string>
+    <string name="registration">La RegistrationActivity</string>
+    <string name="splash">La SplashActivity</string>
+</resources>

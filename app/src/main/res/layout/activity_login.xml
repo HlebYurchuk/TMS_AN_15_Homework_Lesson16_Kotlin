@@ -6,18 +6,26 @@
     android:layout_height="match_parent"
     tools:context=".LoginActivity">
 
+    <ImageView
+        android:layout_width="@dimen/vector"
+        android:layout_height="@dimen/vector"
+        android:src="@drawable/bear"
+        app:layout_constraintBottom_toTopOf="@+id/loginActivity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    
     <TextView
         android:id="@+id/loginActivity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="LoginActivity"
-        android:textAlignment="center"
-        android:textSize="45dp"
+        android:text="@string/login"
+        style="@style/MyText"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.277" />
+        app:layout_constraintVertical_bias="0.526" />
 
     <Button
         android:id="@+id/btnLoginActivity"
@@ -26,7 +34,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:text="Next"
-        android:textSize="30dp"
+        style="@style/MyButton"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/loginActivity" />
